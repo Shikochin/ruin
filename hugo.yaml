@@ -1,0 +1,99 @@
+baseURL: https://shikoch.in/
+languageCode: zh-CN
+title: Ruin
+theme: PaperMod
+copyright: "2021-present by [Shikochin](https://github.com/Shikochin)"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "lost addiction"
+  author: 西宮 缄
+  # author: ["Me", "You"] # multiple authors
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  ShowPostNavLinks: true
+  # ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  comments: true
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "遗迹"
+    Content: >
+      所言皆所思
+
+      - 所思亦所言
+
+      - 未尝了却全貌
+
+      - 也求所言有一席之地
+
+      - 此为遗迹
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/Shikochin/Ruin"
+    - name: X
+      title: Follow my X account
+      url: "https://x.com/shikoch1n/"
+    - name: email
+      title: Send a letter to me
+      url: "mailto:i@shikoch.in"
+
+defaultContentLanguage: zh
+
+languages:
+  zh:
+    languageCode: "zh-CN"
+    languageName: "Chinese"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 归档
+          url: archives
+          weight: 5
+        - name: 分类
+          url: categories
+          weight: 9
+        - name: 标签
+          url: tags/
+          weight: 10
+        - name: 文摘
+          url: https://excerpt.shikoch.in
+          weight: 11
+        - name: 关于
+          url: about
+          weight: 12
