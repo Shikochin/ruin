@@ -22,7 +22,7 @@ params:
   ShowReadingTime: true
   # disableSpecial1stPost: true
   ShowPostNavLinks: true
-  # ShowBreadCrumbs: true
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
