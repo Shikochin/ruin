@@ -20,3 +20,5 @@ hugo.linux
 
 # WebStorm
 .idea
+
+.DS_Store
