@@ -6,7 +6,7 @@ tags = ['摘抄','网站','项目']
 category = "项目"
 +++
 ## 网站
-[文摘](https://losted.org)
+[Losted](https://losted.org)
 
 [GitHub Repo](https://github.com/Shikochin/losted)
 
