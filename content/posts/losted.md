@@ -1,14 +1,14 @@
 +++
-title = '关于 🖋️文摘'
+title = '关于 🖋️ Losted'
 date = 2024-10-13T02:36:59+08:00
 draft = false
 tags = ['摘抄','网站','项目']
 category = "项目"
 +++
 ## 网站
-[文摘](https://excerpt.shikoch.in)
+[文摘](https://losted.org)
 
-[GitHub Repo](https://github.com/Shikochin/excerpt.shikoch.in)
+[GitHub Repo](https://github.com/Shikochin/losted)
 
 ## 正文
 
@@ -21,4 +21,8 @@ category = "项目"
 不知道之后会不会整个开放注册然后每个人够可以上传自己的摘抄之类的功能（画大饼是吧）
 
 总之先这样，欢迎来 star~
+---
 
+2025 年 2 月 25 日更新：
+
+网站更名为 Losted（原文摘），意为 Lost+ed （迷失，而后继续迷失），旨在表明在如此文化之海中不断深潜，最后迷失自我。
