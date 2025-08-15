@@ -1,0 +1,58 @@
+
+projects_url: http://github.com/Shikochin
+
+nav:
+  home: /
+  about: /about/
+  articles: /archives/
+  projects: http://github.com/Shikochin
+
+social_links:
+  -
+    icon: github
+    link: https://github.com/Shikochin
+  -
+    icon: twitter
+    label: "@shikoch1n"
+    link: https://x.com/shikoch1n
+  -
+    icon: mail
+    label: "Email"
+    link: mailto:i@shikoch.in
+
+copyright:
+  start_year: 2021
+  end_year:
+
+logo:
+  enabled: true
+  width: 50
+  height: 50
+  url: /images/logo.png
+  gravatar: false
+  grayout: true
+
+favicon:
+  desktop:
+    url: /images/favicon.ico
+    gravatar: false
+  android:
+    url: /images/favicon-192x192.png
+    gravatar: false
+  apple:
+    url: /images/apple-touch-icon.png
+    gravatar: false
+
+utterances:
+  enabled: true
+  repo: Shikochin/ruin
+  issue_term: pathname
+  label: 💬 Comment
+  theme: preferred-color-scheme
+
+# Fill in your Umami Analytics tracking ID to enable Umami Analytics.
+umami_analytics:
+  enabled: true
+  id: 8e2d4061-e9e3-4c72-9e00-ac1b5bfcd207
+  host: https://shikoch.in
+  script_name: umami.js

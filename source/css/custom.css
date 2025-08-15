@@ -1,0 +1,49 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #222222;
+    --link-color: #0066cc;
+    --link-hover-color: #004999;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #191919;
+        --text-color: #e4e4e4;
+        --link-color: #ff8da3;
+        --link-hover-color: #f8718c;
+    }
+
+    figure {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color) !important;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article .content :where(h1, h2, h3, h4, h5, h6)::before,
+#toc > ol > li::before,
+blockquote,
+blockquote::before {
+    color: var(--link-color) !important;
+}
+
+a:hover {
+    color: var(--link-hover-color) !important;
+}
+
+#title > h1,
+#header #nav ul li,
+#nav > ul > li {
+    color: var(--text-color) !important;
+    border-color: var(--link-color) !important;
+}
