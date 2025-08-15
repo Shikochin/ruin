@@ -18,7 +18,8 @@
     }
 }
 
-body {
+body,
+#footer-post {
     background-color: var(--bg-color);
     color: var(--text-color) !important;
 }
