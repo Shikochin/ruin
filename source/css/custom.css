@@ -3,6 +3,7 @@
     --text-color: #222222;
     --link-color: #0066cc;
     --link-hover-color: #004999;
+    --dark-text-color: #666666;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,4 +48,10 @@ a:hover {
 #nav > ul > li {
     color: var(--text-color) !important;
     border-color: var(--link-color) !important;
+}
+
+.article-tag a::before {
+    content: '#';
+    margin-right: 2px;
+    color: var(--dark-text-color);
 }
