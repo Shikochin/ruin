@@ -54,5 +54,5 @@ utterances:
 umami_analytics:
   enabled: true
   id: 8e2d4061-e9e3-4c72-9e00-ac1b5bfcd207
-  host: https://shikoch.in
-  script_name: umami.js
+  host: https://cloud.umami.is
+  script_name: script.js
