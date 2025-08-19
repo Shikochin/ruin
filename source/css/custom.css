@@ -8,11 +8,19 @@
 .article-summary {
     background: #f9f9f9;
     color: #333;
-    border-left: 4px solid #ccc;
+    border: 2px solid var(--link-color);
     padding: 1em;
     margin: 1.5em 0;
     border-radius: 8px;
-    font-style: italic;
+    /* font-style: italic; */
+}
+
+.article-summary::before {
+    content: 'AI 摘要';
+    font-weight: bold;
+    color: var(--link-color);
+    display: block;
+    margin-bottom: 0.2em;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,12 +29,6 @@
         --text-color: #e4e4e4;
         --link-color: #ff8da3;
         --link-hover-color: #f8718c;
-    }
-
-    .article-summary {
-        background: #2a2a2a;
-        color: #e0e0e0;
-        border-left: 4px solid #555;
     }
 
     figure {
