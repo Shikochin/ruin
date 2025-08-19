@@ -5,6 +5,15 @@
     --link-hover-color: #004999;
     --dark-text-color: #666666;
 }
+.article-summary {
+    background: #f9f9f9;
+    color: #333;
+    border-left: 4px solid #ccc;
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 8px;
+    font-style: italic;
+}
 
 @media (prefers-color-scheme: dark) {
     :root {
@@ -12,6 +21,12 @@
         --text-color: #e4e4e4;
         --link-color: #ff8da3;
         --link-hover-color: #f8718c;
+    }
+
+    .article-summary {
+        background: #2a2a2a;
+        color: #e0e0e0;
+        border-left: 4px solid #555;
     }
 
     figure {
