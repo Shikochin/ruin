@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import OpenAI from 'openai'
-import glob from 'glob'
+import { glob } from 'glob'
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
