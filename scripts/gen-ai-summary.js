@@ -3,6 +3,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import OpenAI from 'openai'
+import glob from 'glob'
 
 const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
@@ -20,7 +21,7 @@ async function generateSummary(content) {
 
 async function main() {
     const postsDir = path.join(process.cwd(), 'source/_posts')
-    const files = fs.readdirSync(postsDir)
+    const files = glob.sync('source/_posts/**/*.md')
 
     for (const file of files) {
         if (!file.endsWith('.md')) continue

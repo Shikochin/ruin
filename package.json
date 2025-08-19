@@ -8,7 +8,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/Shikochiko/ruin.git"
-     },
+    },
     "scripts": {
         "build": "hexo generate",
         "clean": "hexo clean",
@@ -19,6 +19,7 @@
         "version": "7.3.0"
     },
     "dependencies": {
+        "glob": "^11.0.3",
         "gray-matter": "^4.0.3",
         "hexo": "^7.3.0",
         "hexo-generator-archive": "^2.0.0",
