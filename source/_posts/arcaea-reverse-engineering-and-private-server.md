@@ -8,7 +8,9 @@ tags:
   - 逆向
 categories:
   - 技术
-summary: ''
+summary: >-
+  本文是一篇技术教程，指导如何在iOS设备上为音乐游戏《Arcaea》搭建私人服务器。文章详述了使用IDA
+  Pro逆向修改客户端以绕过SSL验证，配置Python服务端和Charles网络代理，并导入谱面定数数据，以实现完整的私服游戏体验和PTT计算。
 ---
 ![f65ddd713edfcbcfdf77a9ff3624333e.jpg](https://s2.loli.net/2025/08/18/PnHKIsVzESeaM5X.jpg)
 ## 前言
