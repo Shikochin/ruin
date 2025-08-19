@@ -20,21 +20,19 @@ async function generateSummary(content) {
 }
 
 async function main() {
-    const postsDir = path.join(process.cwd(), 'source/_posts')
     const files = glob.sync('source/_posts/**/*.md')
 
-    for (const file of files) {
-        if (!file.endsWith('.md')) continue
-        const filePath = path.join(postsDir, file)
+    for (const filePath of files) {
+        if (!filePath.endsWith('.md')) continue
         const raw = fs.readFileSync(filePath, 'utf-8')
         const parsed = matter(raw)
 
         if (parsed.data.summary) {
-            console.log(`✅ ${file} 已有摘要，跳过`)
+            console.log(`✅ ${filePath} 已有摘要，跳过`)
             continue
         }
 
-        console.log(`📝 正在为 ${file} 生成摘要...`)
+        console.log(`📝 正在为 ${filePath} 生成摘要...`)
         const summary = await generateSummary(parsed.content)
         parsed.data.summary = summary
 
