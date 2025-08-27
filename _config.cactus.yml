@@ -57,7 +57,7 @@ giscus:
   category: Comment
   category_id: DIC_kwDOL7BWO84CfWhY
   mapping: pathname
-  theme: preferred-color-scheme
+  theme: preferred_color_scheme
   lang: zh-CN
 
 
