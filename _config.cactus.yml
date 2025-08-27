@@ -43,12 +43,23 @@ favicon:
     url: /images/apple-touch-icon.png
     gravatar: false
 
-utterances:
+# utterances:
+#   enabled: true
+#   repo: Shikochin/ruin
+#   issue_term: pathname
+#   label: 💬 Comment
+#   theme: preferred-color-scheme
+
+giscus:
   enabled: true
   repo: Shikochin/ruin
-  issue_term: pathname
-  label: 💬 Comment
+  repo_id: R_kgDOL7BWOw
+  category: Comment
+  category_id: DIC_kwDOL7BWO84CfWhY
+  mapping: pathname
   theme: preferred-color-scheme
+  lang: zh-CN
+
 
 # Fill in your Umami Analytics tracking ID to enable Umami Analytics.
 umami_analytics:
