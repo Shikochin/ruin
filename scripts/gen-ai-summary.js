@@ -29,6 +29,10 @@ async function main() {
             console.log(`✅ ${filePath} 已有摘要，跳过`)
             continue
         }
+        if (parsed.data.summary === 'none') {
+            console.log(`🚫 ${filePath} 标记为不生成摘要，跳过`)
+            continue
+        }
         const text = parsed.content
             .replace(/<[^>]+>/g, '') // 去掉 HTML
             .replace(/```[\s\S]*?```/g, '') // 去掉代码块
