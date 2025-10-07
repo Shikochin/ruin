@@ -8,7 +8,7 @@ date: 2025-08-15 19:59:48
 
 <img src="https://avatars.githubusercontent.com/u/60309542" width=256>
 
-にしみや 缄，也可以叫 Shikochin，Nishimiya Chin。16 岁，居住在中国，是一个高中生。创造遗迹来留下一些自己的想法和生活琐碎。
+にしみや 缄，也可以叫 Shikochin，Nishimiya Chin。17 岁，居住在中国，是一个高中生。创造遗迹来留下一些自己的想法和生活琐碎。
 
 2021 年开始折腾个人博客，每次都不尽如人意，虽然折腾不算在写博客的快乐之内，但依旧从中学习到了不少东西。
 
