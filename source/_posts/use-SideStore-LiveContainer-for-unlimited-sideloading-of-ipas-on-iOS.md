@@ -1,14 +1,16 @@
 ---
 title: 使用 SideStore + LiveContainer 在 iOS 上无限侧载 .ipa
-date: 2025-11-02 14:50:35
+date: 2025-11-02T14:50:35.000Z
 tags:
- - SideStore
- - LiveContainer
- - 侧载
- - iOS
- - .ipa
+  - SideStore
+  - LiveContainer
+  - 侧载
+  - iOS
+  - .ipa
 categories:
- - 技术
+  - 技术
+summary: >-
+  本文是一篇iOS无限侧载教程，指导用户如何通过结合SideStore与LiveContainer，突破传统侧载7天有效期和3个App的数量限制。文章详述了配置步骤，并利用快捷指令实现应用的自动续签，最终达到无限安装App且无需连接电脑自动续期的效果。
 ---
 
 ## 前言
