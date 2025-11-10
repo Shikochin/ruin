@@ -45,6 +45,5 @@ O
 ，谐音干你妈
 理由：傻逼吧谁出的题
 “卫生津”：小时候看到这集的时候笑到呼吸性碱中毒了。
-toarumajutsunokinshomokuroku works!
-Show comment。
+toarumaju,tsunokinshomo,kuroku works,叹号 Show comment。
 ”
